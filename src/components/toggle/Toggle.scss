@@ -1,0 +1,36 @@
+.toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 28px;
+    height: 16px;
+
+    border-radius: 20px;
+}
+
+.toggle.on {
+    background-color: #2B3674;
+}
+
+.toggle.off {
+    background-color: red;
+}
+
+.toggle-circle {
+    width: 12px;
+    height: 12px;
+    background-color: white;
+
+    border-radius: 20px;
+}
+
+.toggle-circle.on {
+    transform: translateX(-6px);
+    transition: transform 0.5s ease
+}
+
+.toggle-circle.off {
+    transform: translateX(6px);
+    transition: transform 0.5s ease
+}

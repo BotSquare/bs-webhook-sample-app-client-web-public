@@ -1,0 +1,32 @@
+{
+    "nav": {
+        "business": "商务合作",
+        "join-us": "加入我们",
+        "login-signup": "登录/注册"
+    },
+    "bots": {
+        "slogan": "选择您的AI机器人开始聊天",
+        "download-ios": "下载iOS应用程序"
+    },
+    "bot": {
+        "share-title": "分享这个AI机器人！",
+        "share-btn": "点击复制"
+    },
+    "bot-card": {
+        "you-can-ask": "可以问我：",
+        "share": "分享",
+        "chat-now": "开始聊天",
+        "user-input-change": "换个问题"
+    },
+    "footnote": {
+        "contact-us": "联系我们："
+    },
+    "bot-chat": {
+        "recommended-title": "试试这些Bots！",
+        "history-title": "最近聊天"
+    },
+    "app-store-bar": {
+        "title": "在应用商店上可用",
+        "download-ios": "请在应用商店下载我们的应用程序"
+    }
+}

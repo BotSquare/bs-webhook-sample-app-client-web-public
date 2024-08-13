@@ -1,0 +1,124 @@
+.share-sheet-container {
+    position: absolute;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 100%;
+}
+
+.share-sheet-backdrop {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
+
+    width: 100%;
+    height: 100%;
+}
+
+.share-sheet-main {
+    background-color: white;
+    border-radius: 8px;
+    padding: 24px 16px;
+
+    z-index: 10;
+}
+
+.share-sheet-title {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+
+    h1 {
+        font-size: 22px;
+        font-weight: 700;
+        color: #2B3674;
+        margin: 0;
+    }
+
+    i {
+        font-size: 32px;
+        color: #2B3674;
+        
+        line-height: 0;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+
+.share-sheet-body {
+    margin-top: 24px;
+    margin-bottom: 24px;
+
+    h2 {
+        font-size: 16px;
+        font-weight: 400;
+        color: #2B3674;
+
+        margin: 0;
+        margin-bottom: 16px;
+    }
+
+    input {
+        height: 58px;
+        width: 432px;
+
+        border: 1px solid #97A3E4;
+        border-radius: 6px;
+
+        margin: 0 8px;
+        padding-left: 16px;
+        padding-right: 16px;
+
+        text-overflow: ellipsis;
+    }
+}
+
+.share-sheet-divider {
+    height: 1px;
+    width: 100%;
+    
+    background-color: #E2E5F1;
+}
+
+.share-sheet-button {
+    display: flex;
+    justify-content: flex-end;
+
+    button {
+        display: flex;
+        align-items: center;
+        
+        border-radius: 8px;
+        border: 0;
+
+        margin-top: 16px;
+        margin-right: 8px;
+
+        i {
+            font-size: 24px;
+            transform: rotate(-45deg);
+            line-height: 0;
+        }
+    }
+    
+    button.before {
+        color: white;
+        background-color: #3C49CB;        
+        padding: 16px 24px 16px 20px;
+    }
+
+    button.after {
+        color: #0B9D42;
+        background-color: #E4E4E4;
+        padding: 16px 24px;
+
+        &:hover {
+            cursor: default;
+        }
+    }
+}

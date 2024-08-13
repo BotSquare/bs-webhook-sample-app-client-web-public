@@ -1,0 +1,18 @@
+{
+  "applinks": {
+      "details": [
+           {
+             "appIDs": [ "39Z6PY79KQ.com.arclight.botsquare" ],
+             "components": [
+               {
+                  "/": "/"
+               },
+               {
+                  "/": "/chat/*",
+                  "?": { "botId": "?*" }
+               }
+             ]
+           }
+       ]
+   }
+}

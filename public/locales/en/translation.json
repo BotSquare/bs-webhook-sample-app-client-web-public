@@ -1,0 +1,32 @@
+{
+    "nav": {
+        "business": "Business",
+        "join-us": "Join Us",
+        "login-signup": "Login/Sign Up"
+    },
+    "bots": {
+        "slogan": "Get Started to Chat with AI Experts",
+        "download-ios": "Download app today"
+    },
+    "bot": {
+        "share-title": "Share this bot！",
+        "share-btn": "Click to copy"
+    },
+    "bot-card": {
+        "you-can-ask": "Ask me...",
+        "share": "Share",
+        "chat-now": "Chat now",
+        "user-input-change": "Change"
+    },
+    "footnote": {
+        "contact-us": "Contact Us: "
+    },
+    "bot-chat": {
+        "recommended-title": "Try these bots!",
+        "history-title": "Recently interacted"
+    },
+    "app-store-bar": {
+        "title": "Available on App Store",
+        "download-ios": "Please download our app on App Store"
+    }
+}

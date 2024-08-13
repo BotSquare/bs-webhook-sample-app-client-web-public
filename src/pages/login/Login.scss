@@ -1,0 +1,185 @@
+body {
+    background-color: #F2F5FF;
+}
+
+.login-main {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #F2F5FF;
+}
+
+.login-main-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-title {
+    font-family: Ubuntu-Bold;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 40px;
+
+    text-align: center;
+    
+    padding-top: 48px;
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+}
+
+.login-container {
+    background-color: white;
+    border-radius: 8px;
+
+    width: 646px;
+    max-width: 90vw;
+
+    padding: 24px;
+    margin-bottom: 16px;
+}
+
+.login-steps {
+
+    padding: 24px 24px 16px 24px;
+
+    h1 {
+        font-family: Ubuntu-Bold;
+        font-size: 28px;
+        font-weight: 700;
+
+        margin-bottom: 16px;
+    }
+
+    li, strong, a {
+        font-size: 16px;
+        color: #64748B !important;
+        margin: 0;
+    }
+}
+
+.login-webhook-url-container {
+    background-color: #F9F8FE;
+    border-radius: 6px;
+
+    h1 {
+        font-size: 16px;
+        font-weight: 500;
+        color: #2B3674;
+
+        padding: 26px 32px 8px 32px;
+        margin: 0;
+    }
+
+    .url-container {
+        display: flex;
+
+        justify-content: space-between;
+        align-items: center;
+
+        padding: 0px 24px 13px 24px;
+
+        h2 {
+            font-size: 16px;
+            font-weight: 400;
+            color: #141936;
+            
+            max-width: 50vw;
+            word-wrap: break-word;
+            white-space: normal;
+            
+            padding: 20px 16px 20px 16px;
+            margin: 0;
+        }
+
+        h3 {
+            font-size: 10px;
+            font-weight: 500;
+            color: #64748B;
+
+            margin: 0;
+        }
+
+        button {
+            background-color: transparent;
+            border: 0;
+            transform: rotate(90deg);
+
+            color: #141936;
+        }
+    }
+}
+
+.login-input-container {
+    display: flex;
+    flex-direction: column;
+    
+    padding: 8px 24px 24px 24px;
+
+    h1 {
+        font-size: 16px;
+        font-weight: 500;
+        color: #2B3674;
+
+        padding-left: 8px;
+        padding-top: 8px;
+        margin: 0;
+    }
+
+    input {
+        width: 100%;
+        border-radius: 6px;
+        border: 1.4px solid #8390BA;
+        padding: 20px 16px;
+
+        margin-top: 8px;
+        margin-bottom: 24px;
+    }
+
+    input::placeholder {
+        font-size: 16px;
+        font-weight: 400;
+        color: #8390BA;
+    }
+
+    button {
+        display: flex;
+
+        height: 100%;
+        
+        font-size: 18px;
+        font-weight: 500;
+        color: white;
+        background-color: #3C49CB;
+        
+        padding: 16px 20px;
+
+        border-radius: 8px;
+        border: 0;
+    }
+}
+
+.login-button-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.tutorial-container {
+    background-color: white;
+    border-radius: 8px;
+
+    padding: 48px;
+    margin-bottom: 48px;
+
+    h1 {
+        font-family: Ubuntu-Bold;
+        font-size: 28px;
+        font-weight: 700;
+        color: #141936;
+
+        padding-bottom: 24px;
+    }
+}

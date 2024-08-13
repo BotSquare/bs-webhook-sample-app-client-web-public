@@ -1,0 +1,76 @@
+{
+  "name": "open-ai-stream",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.3",
+    "@types/react": "^18.0.34",
+    "@types/react-dom": "^18.0.11",
+    "axios": "^1.6.8",
+    "bootstrap": "^5.2.3",
+    "bootstrap-icons": "^1.11.3",
+    "flag-icons": "^6.6.6",
+    "i18next": "^22.4.15",
+    "i18next-browser-languagedetector": "^7.0.1",
+    "i18next-http-backend": "^2.2.0",
+    "openai": "^4.29.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-i18next": "^12.2.2",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.10.0",
+    "react-scripts": "5.0.1",
+    "typescript": "^4.9.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "prepare": "husky install"
+  },
+  "eslintConfig": {
+    "rules": {
+      "semi": [
+        "error",
+        "always"
+      ],
+      "quotes": [
+        "error",
+        "single",
+        {
+          "allowTemplateLiterals": true
+        }
+      ],
+      "jsx-quotes": [
+        "error",
+        "prefer-single"
+      ],
+      "react/jsx-indent": [
+        "error",
+        4
+      ]
+    },
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/uuid": "^9.0.1",
+    "husky": "^8.0.3",
+    "sass": "^1.62.0"
+  }
+}
